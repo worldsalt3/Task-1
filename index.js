@@ -10,7 +10,7 @@ const data = {
 }
 
 app.get('/', (req, res) => {
-    res.send(data)
+    res.json(data)
 })      
 
 const port = process.env.PORT || 5050
